@@ -1,0 +1,9 @@
+- edit Myconfig.h :
+	- disable debugging
+	- enable SoftSPI 
+- wiring : 
+	- softspi = see Myconfig.h
+	- CE/CSN = see MyMQTTClient.h
+- specify : MQTT broker & LAN IP@ in MQTTCientGW_v1.5.1
+- tested with Arduino 1.5.7 + MySensors 1.5
+- code runs on DIY PCB but also works on arduino+ethernet prototype
